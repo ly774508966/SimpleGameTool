@@ -47,7 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AI.cs" />
+     <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Heros\Axe\Axe.cs" />
+     <Compile Include="Assets\Scripts\Heros\Axe\Axe_Animation.cs" />
+     <Compile Include="Assets\Scripts\Heros\Axe\Axe_Collider.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SequenceManager.cs" />
      <None Include="Assets\Models\BloodMageJonas\HairShader.shader" />
