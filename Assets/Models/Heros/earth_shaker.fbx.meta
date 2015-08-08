@@ -209,6 +209,7 @@ ModelImporter:
     7400070: mdldecompiler.qc_skeleton|workshop_anim_08
     7400072: mdldecompiler.qc_skeleton|workshop_anim_09
     9500000: //RootNode
+    11100000: //RootNode
     13700000: earthshaker_model.dmx
     13700002: lod1_belt_model.dmx
     13700004: lod1_bracers_model.dmx
@@ -264,6 +265,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 
