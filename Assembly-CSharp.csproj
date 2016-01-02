@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_8;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_OBSOLETE_API_UPDATING;ENABLE_SPRITES;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MULTIPLE_DISPLAYS;ENABLE_WWW;ENABLE_PHYSICS_PHYSX3;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_CACHING;ENABLE_FRAME_DEBUGGER;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_TERRAIN;INCLUDE_WP8SUPPORT;INCLUDE_IL2CPP;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;PLATFORM_SUPPORTS_MONO;INCLUDE_DYNAMIC_GI;ENABLE_PLUGIN_INSPECTOR;RENDER_SOFTWARE_CURSOR;ENABLE_PHYSICS;ENABLE_NEW_HIERARCHY;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_HOME_SCREEN;ENABLE_EGL;INCLUDE_GI;ENABLE_AUDIO;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,18 +46,89 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraMove.cs" />
-     <Compile Include="Assets\Scripts\Heros\Axe\Axe.cs" />
-     <Compile Include="Assets\Scripts\Heros\Axe\Axe_Animation.cs" />
-     <Compile Include="Assets\Scripts\Heros\Axe\Axe_Collider.cs" />
-     <Compile Include="Assets\Scripts\Heros\Doom\Doom.cs" />
-     <Compile Include="Assets\Scripts\Heros\Doom\Doom_Animation.cs" />
-     <Compile Include="Assets\Scripts\Heros\Doom\Doom_Collider.cs" />
-     <Compile Include="Assets\Scripts\Heros\EarthShaker\EarthShaker.cs" />
-     <Compile Include="Assets\Scripts\Heros\EarthShaker\EarthShaker_Animation.cs" />
-     <Compile Include="Assets\Scripts\Heros\EarthShaker\EarthShaker_Collider.cs" />
+     <Compile Include="Assets\Resources\Scripts\Camera\CameraMove.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameStart.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\Axe\Axe.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\Axe\Axe_Animation.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\Axe\Axe_Collider.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\Doom\Doom.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\Doom\Doom_Animation.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\Doom\Doom_Collider.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\EarthShaker\EarthShaker.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\EarthShaker\EarthShaker_Animation.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heros\EarthShaker\EarthShaker_Collider.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\BindCustom.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaDelegate_Deleg_GetBundleInfoDelegate.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaDelegate_Deleg_SimpleDelegate.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Action_1_int.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Action_1_string.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Action_2_int_Dictionary_System_Int32_object_.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Action_2_int_string.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Comparison_1_int.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Func_1_int.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Func_3_int_string_bool.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\LuaSystem_Predicate_1_int.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_AbsClass.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_CameraMove.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_Custom.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_Deleg.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_HelloWorld.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_SLuaTest.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_System_Collections_Generic_Dictionary_2_int_string.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_System_Collections_Generic_List_1_int.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_System_String.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_XXList.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_foostruct.cs" />
+     <Compile Include="Assets\Slua\example\Circle.cs" />
+     <Compile Include="Assets\Slua\example\Custom.cs" />
+     <Compile Include="Assets\Slua\example\Deleg.cs" />
+     <Compile Include="Assets\Slua\example\HelloWorld.cs" />
+     <Compile Include="Assets\Slua\example\Main.cs" />
+     <Compile Include="Assets\Slua\example\Perf.cs" />
+     <Compile Include="Assets\Slua\example\ValueType.cs" />
+     <Compile Include="Assets\Slua\example\VarObj.cs" />
+     <Compile Include="Assets\Slua\example\test\TestLua.cs" />
+     <Compile Include="Assets\Slua\example\test\test.cs" />
+     <None Include="Assets\Resources\Game\Behavior\actions\Succeeder.txt" />
+     <None Include="Assets\Slua\Resources\module\some.txt" />
+     <None Include="Assets\Slua\Resources\main.txt" />
+     <None Include="Assets\Resources\Game\Behavior\composites\Sequence.txt" />
+     <None Include="Assets\Slua\Resources\circle\circle.txt" />
+     <None Include="Assets\Resources\Game\Behavior\decorators\Repeater.txt" />
+     <None Include="Assets\Resources\Game\Behavior\actions\Runner.txt" />
+     <None Include="Assets\Resources\Game\Behavior\decorators\RepeatUntilFailure.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\Blackboard.txt" />
+     <None Include="Assets\Resources\Game\Behavior\decorators\MaxTime.txt" />
+     <None Include="Assets\Resources\Game\Behavior\composites\MemPriority.txt" />
+     <None Include="Assets\Resources\Game\Behavior\decorators\RepeatUntilSuccess.txt" />
+     <None Include="Assets\Resources\Game\Behavior\actions\Error.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\Action.txt" />
+     <None Include="Assets\Resources\Game\Behavior\b3.txt" />
+     <None Include="Assets\Resources\Game\Behavior\actions\Failer.txt" />
+     <None Include="Assets\Resources\Game\Behavior\composites\MemSequence.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\BaseNode.txt" />
+     <None Include="Assets\Resources\Game\Behavior\decorators\Inverter.txt" />
+     <None Include="Assets\Slua\Resources\perf.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\Decorator.txt" />
+     <None Include="Assets\Slua\Resources\delegate.txt" />
+     <None Include="Assets\Resources\Game\Behavior\composites\Priority.txt" />
+     <None Include="Assets\Resources\Game\Behavior\decorators\Limiter.txt" />
+     <None Include="Assets\Resources\Game\Behavior\tests.txt" />
+     <None Include="Assets\Resources\Game\Util\Class.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\Tick.txt" />
+     <None Include="Assets\Resources\Game\Prefabs\EarthShaker.txt" />
+     <None Include="Assets\Resources\Game\Prefabs\Axe.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\BehaviorTree.txt" />
+     <None Include="Assets\Resources\Game\Behavior\actions\Wait.txt" />
+     <None Include="Assets\Slua\Resources\valuetype.txt" />
+     <None Include="Assets\Slua\Resources\varobj.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\Composite.txt" />
+     <None Include="Assets\Resources\Game\Prefabs\Doom.txt" />
+     <None Include="Assets\Slua\Resources\custom.txt" />
+     <None Include="Assets\Resources\Game\Main.txt" />
+     <None Include="Assets\Resources\Game\Behavior\core\Condition.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.8/Standalone/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

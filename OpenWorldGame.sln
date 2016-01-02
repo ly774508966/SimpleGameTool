@@ -5,6 +5,8 @@ Project("{6EED7251-1176-F7C2-434D-B4AE7488BB92}") = "OpenWorldGame", "Assembly-C
 EndProject
 Project("{6EED7251-1176-F7C2-434D-B4AE7488BB92}") = "OpenWorldGame", "Assembly-CSharp.csproj", "{9D58404B-166E-7728-3EA1-EC2C99810755}"
 EndProject
+Project("{6EED7251-1176-F7C2-434D-B4AE7488BB92}") = "OpenWorldGame", "Assembly-CSharp-Editor.csproj", "{B7E0AE9A-7985-0E99-D5FA-FC074206ADB8}"
+EndProject
 Project("{6EED7251-1176-F7C2-434D-B4AE7488BB92}") = "OpenWorldGame", "Assembly-UnityScript-firstpass.unityproj", "{5C34FC34-70C9-C571-0526-C7BAA089F535}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{9D58404B-166E-7728-3EA1-EC2C99810755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D58404B-166E-7728-3EA1-EC2C99810755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D58404B-166E-7728-3EA1-EC2C99810755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E0AE9A-7985-0E99-D5FA-FC074206ADB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E0AE9A-7985-0E99-D5FA-FC074206ADB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E0AE9A-7985-0E99-D5FA-FC074206ADB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E0AE9A-7985-0E99-D5FA-FC074206ADB8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C34FC34-70C9-C571-0526-C7BAA089F535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C34FC34-70C9-C571-0526-C7BAA089F535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C34FC34-70C9-C571-0526-C7BAA089F535}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																						GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
