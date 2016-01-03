@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\Scripts\Base\LuaBaseEvent.cs" />
+     <Compile Include="Assets\Resources\Scripts\Base\Singleton.cs" />
      <Compile Include="Assets\Resources\Scripts\Camera\CameraMove.cs" />
      <Compile Include="Assets\Resources\Scripts\GameStart.cs" />
      <Compile Include="Assets\Resources\Scripts\Heros\Axe\Axe.cs" />
@@ -57,6 +59,9 @@
      <Compile Include="Assets\Resources\Scripts\Heros\EarthShaker\EarthShaker.cs" />
      <Compile Include="Assets\Resources\Scripts\Heros\EarthShaker\EarthShaker_Animation.cs" />
      <Compile Include="Assets\Resources\Scripts\Heros\EarthShaker\EarthShaker_Collider.cs" />
+     <Compile Include="Assets\Resources\Scripts\Lua\LuaAnimationEvent.cs" />
+     <Compile Include="Assets\Resources\Scripts\Lua\LuaEventManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\Lua\LuaManager.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\BindCustom.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\LuaDelegate_Deleg_GetBundleInfoDelegate.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\LuaDelegate_Deleg_SimpleDelegate.cs" />
@@ -73,6 +78,9 @@
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_Custom.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_Deleg.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_HelloWorld.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_LuaAnimationEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_LuaBaseEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_LuaEventManager.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_SLuaTest.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_System_Collections_Generic_Dictionary_2_int_string.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_System_Collections_Generic_List_1_int.cs" />
