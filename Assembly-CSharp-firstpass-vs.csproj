@@ -558,6 +558,7 @@
      <Compile Include="Assets\Plugins\Slua_Managed\Unity\Lua_UnityEngine_WindZoneMode.cs" />
      <Compile Include="Assets\Plugins\Slua_Managed\Unity\Lua_UnityEngine_WrapMode.cs" />
      <Compile Include="Assets\Plugins\Slua_Managed\WeakDictionary.cs" />
+     <None Include="Assets\Ignore\Resources\Script\Base\Buff\FixedHPHurt.txt" />
      <None Include="Assets\Ignore\Resources\Script\Base\Fight\Missile.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Repeater.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\Tick.txt" />
@@ -565,9 +566,9 @@
      <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\RepeatUntilFailure.txt" />
      <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\LoginMainPanel.txt" />
      <None Include="Assets\Ignore\Resources\Script\Base\Creature\Creature.txt" />
-     <None Include="Assets\Ignore\Resources\Config\AttackDataBase.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Wait.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Move.txt" />
+     <None Include="Assets\Ignore\Resources\Script\Base\Fight\Buff.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\Decorator.txt" />
      <None Include="Assets\Ignore\Resources\Update\SceneUpdate.txt" />
@@ -579,12 +580,13 @@
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\Composite.txt" />
      <None Include="Assets\Ignore\Resources\Update\Update.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\Action.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Creature\Buff.txt" />
      <None Include="Assets\Ignore\Resources\Script\Utils\Class.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\Condition.txt" />
+     <None Include="Assets\Ignore\Resources\Script\Base\Fight\EffectDeal.txt" />
      <None Include="Assets\Ignore\Resources\Script\Prefab\Scene\Test.txt" />
      <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
      <None Include="Assets\Ignore\Resources\Script\Prefab\Character\Hornet.txt" />
+     <None Include="Assets\Ignore\Resources\Script\Manager\BuffManager.txt" />
      <None Include="Assets\gmcs.rsp.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Sequence.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Priority.txt" />
@@ -594,6 +596,7 @@
      <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Runner.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\BaseNode.txt" />
      <None Include="Assets\Ignore\Resources\Script\Manager\RunTimeManager.txt" />
+     <None Include="Assets\Ignore\Resources\Script\Base\Fight\BuffHandler.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\tests.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\composites\MemSequence.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\Blackboard.txt" />
@@ -605,8 +608,8 @@
      <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\ServerItemInfo.txt" />
      <None Include="Assets\Ignore\Resources\Script\Main.txt" />
      <None Include="Assets\Ignore\Resources\Script\Manager\MainPlayer.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\AttackHandler.txt" />
      <None Include="Assets\Ignore\Resources\Script\Base\Creature\AI.txt" />
+     <None Include="Assets\Ignore\Resources\Config\SkillDataBase.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\b3.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\composites\MemPriority.txt" />
      <None Include="Assets\Ignore\Resources\Script\Utils\GlobalFunctions.txt" />
