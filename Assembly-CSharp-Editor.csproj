@@ -55,7 +55,6 @@
      <Compile Include="Assets\Slua\Editor\CustomEditor.cs" />
      <Compile Include="Assets\Slua\Editor\CustomExport.cs" />
      <Compile Include="Assets\Slua\Editor\LuaCodeGen.cs" />
-     <Compile Include="Assets\Slua\Editor\SLuaSetting.cs" />
      <None Include="Assets\Ignore\Resources\Script\Base\Buff\FixedHPHurt.txt" />
      <None Include="Assets\Ignore\Resources\Script\Base\Fight\Missile.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Repeater.txt" />
@@ -74,7 +73,6 @@
      <None Include="Assets\Ignore\Resources\Update\SceneUpdate.txt" />
      <None Include="Assets\Ignore\Resources\Script\Base\Creature\Attribute.txt" />
      <None Include="Assets\Ignore\Resources\Script\Base\Fight\HurtCollision.txt" />
-     <None Include="Assets\smcs.rsp.txt" />
      <None Include="Assets\Ignore\Resources\Script\Base\Fight\Skill.txt" />
      <None Include="Assets\Ignore\Resources\Script\Utils\Json.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\core\Composite.txt" />
@@ -87,7 +85,6 @@
      <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
      <None Include="Assets\Ignore\Resources\Script\Prefab\Character\Hornet.txt" />
      <None Include="Assets\Ignore\Resources\Script\Manager\BuffManager.txt" />
-     <None Include="Assets\gmcs.rsp.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Sequence.txt" />
      <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Priority.txt" />
      <None Include="Assets\Ignore\Resources\Script\Prefab\Character\Golem.txt" />
