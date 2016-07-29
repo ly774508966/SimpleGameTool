@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-	<ProductVersion>10.0.20506</ProductVersion>
-	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B7E0AE9A-7985-0E99-D5FA-FC074206ADB8}</ProjectGuid>
-	<OutputType>Library</OutputType>
-	<AppDesignerFolder>Properties</AppDesignerFolder>
-	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-	<FileAlignment>512</FileAlignment>
-	<BaseDirectory>Assets</BaseDirectory>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B7E0AE9A-7985-0E99-D5FA-FC074206ADB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-	<DebugSymbols>true</DebugSymbols>
-	<DebugType>full</DebugType>
-	<Optimize>false</Optimize>
-	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_OBSOLETE_API_UPDATING;ENABLE_SPRITES;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MULTIPLE_DISPLAYS;ENABLE_WWW;ENABLE_PHYSICS_PHYSX3;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_CACHING;ENABLE_FRAME_DEBUGGER;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_TERRAIN;INCLUDE_WP8SUPPORT;INCLUDE_IL2CPP;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;PLATFORM_SUPPORTS_MONO;INCLUDE_DYNAMIC_GI;ENABLE_PLUGIN_INSPECTOR;RENDER_SOFTWARE_CURSOR;ENABLE_PHYSICS;ENABLE_NEW_HIERARCHY;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_HOME_SCREEN;ENABLE_EGL;INCLUDE_GI;ENABLE_AUDIO;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;LUA_5_3;ENABLE_DUCK_TYPING</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_6;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;RESOURCE_DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-	<DebugType>pdbonly</DebugType>
-	<Optimize>true</Optimize>
-	<OutputPath>Temp\bin\Release\</OutputPath>
-	<DefineConstants>TRACE</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-	<Reference Include="System" />
+    <Reference Include="System" />
     <Reference Include="System.XML" />
-	<Reference Include="System.Core" />
-	<Reference Include="System.Xml.Linq" />
-	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
-	</Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\Build\ProjectBuild.cs" />
@@ -55,78 +54,203 @@
      <Compile Include="Assets\Slua\Editor\CustomEditor.cs" />
      <Compile Include="Assets\Slua\Editor\CustomExport.cs" />
      <Compile Include="Assets\Slua\Editor\LuaCodeGen.cs" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Buff\FixedHPHurt.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\Missile.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Repeater.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Tick.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\NetworkTest.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Succeeder.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\RepeatUntilFailure.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\LoginMainPanel.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Creature\Creature.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\sprotoparser.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Wait.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Move.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\Buff.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Decorator.txt" />
-     <None Include="Assets\Ignore\Resources\Update\SceneUpdate.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Creature\Attribute.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\HurtCollision.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\Skill.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Utils\Json.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Composite.txt" />
-     <None Include="Assets\Ignore\Resources\Update\Update.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Action.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Utils\Class.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Condition.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\EffectDeal.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\Scene\Test.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\Character\Hornet.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Manager\BuffManager.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Sequence.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Priority.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\Character\Golem.txt" />
-     <None Include="Assets\Ignore\Resources\Config\Configuration.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Input\JoystickManager.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Runner.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\BaseNode.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Manager\RunTimeManager.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\BuffHandler.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\tests.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\MemSequence.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Blackboard.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\MaxTime.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\proto.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Limiter.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\ServerListPanel.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\BehaviorTree.txt" />
+     <None Include="Assets\Resources\Script\Base\Buff\FixedHPHurt.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\Buff.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\Missile.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\Limiter.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Buff\FixedHPHurt.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Buff.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\b3.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\Sequence.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\UI\UIModuleItem.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\LoginMainPanel.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Creature\Creature.txt" />
+     <None Include="Assets\Resources\Script\Base\Creature\Creature.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\Repeater.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Tick.txt" />
+     <None Include="Assets\Resources\Common\Script\Network\sproto.txt" />
+     <None Include="Assets\Resources\Common\Script\Network\NetworkTest.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Buff\FixedHPHurt.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\tests.txt" />
+     <None Include="Assets\StreamingAssets\Config\SkillDataBase.txt" />
+     <None Include="Assets\Resources\Common\Script\Util\Class.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Runner.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Condition.txt" />
+     <None Include="Assets\Resources\Common\Script\Util\GlobalFunctions.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Move.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\ServerItemInfo.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\Buff.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\Missile.txt" />
+     <None Include="Assets\StreamingAssets\Script\Utils\Json.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\UIWindow.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\Sequence.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\Limiter.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\RepeatUntilFailure.txt" />
+     <None Include="Assets\StreamingAssets\Script\Utils\Class.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Creature\Attribute.txt" />
+     <None Include="Assets\Resources\Update\SceneUpdate.txt" />
+     <None Include="Assets\Resources\Script\Base\Creature\Attribute.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Condition.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\HurtCollision.txt" />
+     <None Include="Assets\Resources\Config\ModConfig.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\Skill.txt" />
+     <None Include="Assets\Resources\Common\Script\Util\Json.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Wait.txt" />
+     <None Include="Assets\StreamingAssets\Script\Manager\MainPlayer.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\BehaviorTree.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Animator.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\ControlCenter.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\Skill.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Composite.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\EffectDeal.txt" />
+     <None Include="Assets\Resources\Update\Update.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\MemPriority.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\Priority.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Action.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\BaseBuff.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\BaseNode.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\Repeater.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Failer.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\EffectDeal.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\MissileA.txt" />
+     <None Include="Assets\Resources\Script\Prefab\Scene\Test.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\MemSequence.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\MaxTime.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Succeeder.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Succeeder.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\EffectDeal.txt" />
+     <None Include="Assets\Resources\Script\Prefab\Character\Hornet.txt" />
+     <None Include="Assets\Resources\Script\Manager\BuffManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\b3.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\UI\UILogin.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Main.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\sproto.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\Priority.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\LoginMainPanel.txt" />
+     <None Include="Assets\Resources\Script\Prefab\Character\Golem.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Module.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\ServerListPanel.txt" />
+     <None Include="Assets\Resources\Config\Configuration.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\NetworkTest.txt" />
+     <None Include="Assets\StreamingAssets\Config\AssetBundleConfig.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Module\Search.txt" />
+     <None Include="Assets\StreamingAssets\Update\Update.txt" />
+     <None Include="Assets\Resources\Script\Input\JoystickManager.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Wait.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Decorator.txt" />
+     <None Include="Assets\Scripts\Plugins\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\Character\Golem.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\UI\UIModuleBag.txt" />
+     <None Include="Assets\StreamingAssets\Update\SceneUpdate.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\proto.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Config\SkillDataBase.txt" />
+     <None Include="Assets\StreamingAssets\Script\Main.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\BaseNode.txt" />
+     <None Include="Assets\Resources\Script\Manager\RunTimeManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Tick.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\Character\Hornet.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\BuffHandler.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Attribute.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Move.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\sprotoparser.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Failer.txt" />
+     <None Include="Assets\StreamingAssets\Script\Input\JoystickManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\Scene\Test.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\RepeatUntilFailure.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\BuffHandler.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Blackboard.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\BehaviorTree.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\HurtCollision.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\MemPriority.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\BaseTank.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Runner.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Decorator.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Error.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Error.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\ServerListPanel.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Inverter.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\ServerItemInfo.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Main.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Manager\MainPlayer.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Creature\AI.txt" />
-     <None Include="Assets\Ignore\Resources\Config\SkillDataBase.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\sproto.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\b3.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\MemPriority.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Utils\GlobalFunctions.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Error.txt" />
-     <None Include="Assets\Ignore\Resources\Config\AssetBundleConfig.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Failer.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Config\AssetBundleConfig.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\Inverter.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Module\Attack.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\ServerItemInfo.txt" />
+     <None Include="Assets\Resources\Script\Main.txt" />
+     <None Include="Assets\StreamingAssets\Script\Manager\BuffManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\tests.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Manager\UIManager.txt" />
+     <None Include="Assets\Resources\Script\Manager\MainPlayer.txt" />
+     <None Include="Assets\Resources\Common\Script\Network\sprotoparser.txt" />
+     <None Include="Assets\StreamingAssets\Script\Utils\GlobalFunctions.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Manager\RunTimeManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
+     <None Include="Assets\Resources\Script\Base\Creature\AI.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Config\Configuration.txt" />
+     <None Include="Assets\StreamingAssets\UpdateTest.txt" />
+     <None Include="Assets\Resources\Config\SkillDataBase.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Blackboard.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\MaxTime.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\Inverter.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\BaseModule.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Composite.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\HurtCollision.txt" />
+     <None Include="Assets\Resources\Config\AssetBundleConfig.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\MemSequence.txt" />
+     <None Include="Assets\StreamingAssets\Config\Configuration.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Action.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Creature\AI.txt" />
+     <None Include="Assets\StreamingAssets\Script\Manager\RunTimeManager.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
  <Reference Include="LitJson">
  <HintPath>/Users/nottvlike/Documents/github/OpenWorldGame/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -137,7 +261,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-	   Other similar extension points exist, see Microsoft.Common.targets.
+       Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">

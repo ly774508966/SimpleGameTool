@@ -1,67 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-	<ProductVersion>10.0.20506</ProductVersion>
-	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9D58404B-166E-7728-3EA1-EC2C99810755}</ProjectGuid>
-	<OutputType>Library</OutputType>
-	<AppDesignerFolder>Properties</AppDesignerFolder>
-	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-	<FileAlignment>512</FileAlignment>
-	<BaseDirectory>Assets</BaseDirectory>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9D58404B-166E-7728-3EA1-EC2C99810755}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-	<DebugSymbols>true</DebugSymbols>
-	<DebugType>full</DebugType>
-	<Optimize>false</Optimize>
-	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_OBSOLETE_API_UPDATING;ENABLE_SPRITES;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MULTIPLE_DISPLAYS;ENABLE_WWW;ENABLE_PHYSICS_PHYSX3;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_CACHING;ENABLE_FRAME_DEBUGGER;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_TERRAIN;INCLUDE_WP8SUPPORT;INCLUDE_IL2CPP;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;PLATFORM_SUPPORTS_MONO;INCLUDE_DYNAMIC_GI;ENABLE_PLUGIN_INSPECTOR;RENDER_SOFTWARE_CURSOR;ENABLE_PHYSICS;ENABLE_NEW_HIERARCHY;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_HOME_SCREEN;ENABLE_EGL;INCLUDE_GI;ENABLE_AUDIO;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;LUA_5_3</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_6;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;RESOURCE_DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-	<DebugType>pdbonly</DebugType>
-	<Optimize>true</Optimize>
-	<OutputPath>Temp\bin\Release\</OutputPath>
-	<DefineConstants>TRACE</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-	<Reference Include="System" />
+    <Reference Include="System" />
     <Reference Include="System.XML" />
-	<Reference Include="System.Core" />
-	<Reference Include="System.Xml.Linq" />
-	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
-	</Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Base\CRC.cs" />
      <Compile Include="Assets\Scripts\Base\CallBack.cs" />
      <Compile Include="Assets\Scripts\Base\FileManager.cs" />
+     <Compile Include="Assets\Scripts\Base\PoolManager.cs" />
      <Compile Include="Assets\Scripts\Base\Singleton.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraMove.cs" />
      <Compile Include="Assets\Scripts\GameStart.cs" />
      <Compile Include="Assets\Scripts\Input\JoystickManager.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaAnimationEvent.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaBaseEvent.cs" />
+     <Compile Include="Assets\Scripts\Lua\LuaCollisionTrigger2DEvent.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaCollisionTriggerEvent.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaEventManager.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaFixedUpdateEvent.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaManager.cs" />
+     <Compile Include="Assets\Scripts\Lua\LuaOnDragEvent.cs" />
+     <Compile Include="Assets\Scripts\Lua\LuaOnSelectEvent.cs" />
+     <Compile Include="Assets\Scripts\Lua\LuaSubCollisionTrigger2DEvent.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaSubCollisionTriggerEvent.cs" />
      <Compile Include="Assets\Scripts\Lua\LuaUpdateEvent.cs" />
+     <Compile Include="Assets\Scripts\Mod\ModManager.cs" />
      <Compile Include="Assets\Scripts\Network\TcpSocket.cs" />
+     <Compile Include="Assets\Scripts\Plugins\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Scripts\Plugins\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Scripts\Plugins\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Scripts\Plugins\iTween\iTween.cs" />
      <Compile Include="Assets\Scripts\Resource\PrefabRequest.cs" />
      <Compile Include="Assets\Scripts\Resource\ResourceManager.cs" />
      <Compile Include="Assets\Scripts\Update\UpdateManager.cs" />
@@ -80,25 +89,35 @@
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_LuaFixedUpdateEvent.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_LuaManager.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_LuaUpdateEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_PoolManager.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_ResourceManager.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_TcpSocket.cs" />
      <Compile Include="Assets\Slua\LuaObject\Custom\Lua_UpdateManager.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Custom\Lua_iTween.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\BindUnity.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\BindUnityUI.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_Application_AdvertisingIdentifierCallback.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_Application_LogCallback.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_AudioClip_PCMReaderCallback.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_AudioClip_PCMSetPositionCallback.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_AudioSettings_AudioConfigurationChangeHandler.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_Camera_CameraCallback.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_Canvas_WillRenderCanvases.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_CullingGroup_StateChanged.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_Display_DisplaysUpdatedDelegate.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_Events_UnityAction.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_Font_FontTextureRebuildCallback.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_RectTransform_ReapplyDrivenProperties.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaDelegate_UnityEngine_UI_InputField_OnValidateInput.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaSystem_Func_1_bool.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaSystem_Func_2_UnityEngine_UI_ILayoutElement_float.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IBeginDragHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_ICancelHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IDeselectHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IDragHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IDropHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IEndDragHandler.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IInitializePotentialDragHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IMoveHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IPointerClickHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IPointerDownHandler.cs" />
@@ -110,10 +129,13 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_ISubmitHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEngine_EventSystems_ExecuteEvents_EventFunction_1_UnityEngine_EventSystems_IUpdateSelectedHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_UnityEngine_EventSystems_BaseEventData.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_UnityEngine_UI_Button.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_UnityEngine_UI_InputField.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_UnityEngine_Vector2.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_bool.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_float.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_int.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\LuaUnityEvent_string.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_JetBrains_Annotations_ImplicitUseKindFlags.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_JetBrains_Annotations_ImplicitUseTargetFlags.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AccelerationEvent.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnchoredJoint2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Animation.cs" />
@@ -123,21 +145,27 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimationCullingType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimationCurve.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimationEvent.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimationInfo.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimationPlayMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimationState.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Animator.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorClipInfo.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorControllerParameter.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorControllerParameterType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorCullingMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorOverrideController.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorRecorderMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorStateInfo.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorTransitionInfo.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorUpdateMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnimatorUtility.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AnisotropicFiltering.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Application.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ApplicationInstallMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ApplicationSandboxType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AreaEffector2D.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Assertions_Assert.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Assertions_AssertionException.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Assertions_Comparers_FloatComparer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AssetBundle.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AssetBundleCreateRequest.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AssetBundleManifest.cs" />
@@ -145,8 +173,10 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AsyncOperation.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioChorusFilter.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioClip.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioClipFormat.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioClipLoadType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioCompressionFormat.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioConfiguration.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioDataLoadState.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioDistortionFilter.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioEchoFilter.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioHighPassFilter.cs" />
@@ -158,12 +188,14 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioRolloffMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioSettings.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioSource.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioSourceCurveType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioSpeakerMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AudioVelocityUpdateMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Audio_AudioMixer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Audio_AudioMixerGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Audio_AudioMixerSnapshot.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Audio_AudioMixerUpdateMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Avatar.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AvatarBuilder.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_AvatarIKGoal.cs" />
@@ -174,12 +206,15 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_BillboardRenderer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_BlendWeights.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_BoneWeight.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_BoundingSphere.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Bounds.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_BoxCollider.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_BoxCollider2D.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_BuoyancyEffector2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Caching.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Camera.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CameraClearFlags.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CameraType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Canvas.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CanvasGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CanvasRenderer.cs" />
@@ -190,6 +225,7 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CircleCollider2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Cloth.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ClothSkinningCoefficient.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ClothSphereColliderPair.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Collider.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Collider2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Collision.cs" />
@@ -200,6 +236,7 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Color.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Color32.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ColorSpace.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ColorUtility.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CombineInstance.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Compass.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Component.cs" />
@@ -216,6 +253,9 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CrashReport.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Cubemap.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CubemapFace.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CullingGroup.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CullingGroupEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_CustomYieldInstruction.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Debug.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_DepthTextureMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_DeviceOrientation.cs" />
@@ -231,13 +271,13 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EffectorSelection2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EllipsoidParticleEmitter.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Event.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_AbstractEventData.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_AxisEventData.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_BaseEventData.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_BaseInputModule.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_BaseRaycaster.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_EventHandle.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_EventSystem.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_EventSystemManager.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_EventTrigger.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_EventTriggerType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_EventTrigger_Entry.cs" />
@@ -247,16 +287,29 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_Physics2DRaycaster.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_PhysicsRaycaster.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_PointerEventData.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_PointerEventData_FramePressState.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_PointerEventData_InputButton.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_PointerInputModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_PointerInputModule_MouseButtonEventData.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_RaycastResult.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_StandaloneInputModule.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_TouchInputModule.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_EventSystems_UIBehaviour.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Events_PersistentListenerMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Events_UnityEvent.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Events_UnityEventBase.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Events_UnityEventCallState.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_AnimationClipPlayable.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_AnimationMixerPlayable.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_AnimationPlayable.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_AnimatorControllerPlayable.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_DirectorPlayer.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_DirectorUpdateMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_FrameData.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_PlayState.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Experimental_Director_Playable.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_FilterMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_FixedJoint.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_FixedJoint2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Flare.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_FlareLayer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_FocusType.cs" />
@@ -264,6 +317,7 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Font.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ForceMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ForceMode2D.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_FrictionJoint2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_GL.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_GameObject.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_GeometryUtility.cs" />
@@ -281,6 +335,8 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_HumanBone.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_HumanDescription.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_HumanLimit.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_HumanPose.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_HumanPoseHandler.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_HumanTrait.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_IMECompositionMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ImageEffectOpaque.cs" />
@@ -291,7 +347,6 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Joint2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointAngleLimits2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointDrive.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointDriveMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointLimitState2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointLimits.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointMotor.cs" />
@@ -300,9 +355,11 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointSpring.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointSuspension2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JointTranslationLimits2D.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_JsonUtility.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_KeyCode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Keyframe.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LOD.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LODFadeMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LODGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LayerMask.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LensFlare.cs" />
@@ -321,8 +378,10 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LocationService.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LocationServiceStatus.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_LogType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Logger.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_MatchTargetWeightMask.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Material.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_MaterialGlobalIlluminationFlags.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_MaterialPropertyBlock.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Mathf.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Matrix4x4.cs" />
@@ -361,10 +420,43 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleRenderMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleRenderer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemAnimationType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemCollisionMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemCollisionQuality.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemCollisionType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemCurveMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemEmissionType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemGradientMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemInheritVelocityMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemMeshShapeType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemRenderMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemRenderSpace.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemRenderer.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemScalingMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemShapeType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemSimulationSpace.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystemSortMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_Burst.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_CollisionModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_ColorBySpeedModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_ColorOverLifetimeModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_EmissionModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_EmitParams.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_ExternalForcesModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_ForceOverLifetimeModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_InheritVelocityModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_LimitVelocityOverLifetimeModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_MinMaxCurve.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_MinMaxGradient.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_Particle.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_RotationBySpeedModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_RotationOverLifetimeModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_ShapeModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_SizeBySpeedModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_SizeOverLifetimeModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_SubEmittersModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_TextureSheetAnimationModule.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ParticleSystem_VelocityOverLifetimeModule.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_PhysicMaterial.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_PhysicMaterialCombine.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Physics.cs" />
@@ -391,6 +483,7 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Projector.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_QualitySettings.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Quaternion.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_QueryTriggerInteraction.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_QueueMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Random.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Ray.cs" />
@@ -401,13 +494,14 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RectOffset.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RectTransform.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RectTransformUtility.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RectTransform_Axis.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RectTransform_Edge.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ReflectionProbe.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ReflectionProbeClearFlags.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ReflectionProbeMode.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ReflectionProbeType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RelativeJoint2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RenderBuffer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RenderMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RenderSettings.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RenderTargetSetup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RenderTexture.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RenderTextureFormat.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RenderTextureReadWrite.cs" />
@@ -417,27 +511,52 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_BlendMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_BlendOp.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_BuiltinRenderTextureType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_BuiltinShaderMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_BuiltinShaderType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_CameraEvent.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ColorWriteMask.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_CommandBuffer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_CompareFunction.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_CullMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_DefaultReflectionMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_GraphicsDeviceType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_GraphicsSettings.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_LightEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_OpaqueSortMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_PassType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionCubemapCompression.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionProbeBlendInfo.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionProbeClearFlags.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionProbeMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionProbeRefreshMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionProbeTimeSlicingMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionProbeType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ReflectionProbeUsage.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_RenderBufferLoadAction.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_RenderBufferStoreAction.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_RenderTargetIdentifier.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_SphericalHarmonics3.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ShadowCastingMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_ShadowSamplingMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_SphericalHarmonicsL2.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rendering_StencilOp.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Resolution.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ResourceRequest.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Resources.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rigidbody.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Rigidbody2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RigidbodyConstraints.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RigidbodyConstraints2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RigidbodyInterpolation.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RigidbodyInterpolation2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RigidbodySleepMode2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RotationDriveMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RuntimeAnimatorController.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RuntimeInitializeLoadType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_RuntimePlatform.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ScaleMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SceneManagement_LoadSceneMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SceneManagement_Scene.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SceneManagement_SceneManager.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Screen.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ScreenOrientation.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_ScriptableObject.cs" />
@@ -452,6 +571,8 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SleepTimeout.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SliderJoint2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SoftJointLimit.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SoftJointLimitSpring.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SortingLayer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Space.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SparseTexture.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SphereCollider.cs" />
@@ -464,12 +585,14 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SpritePackingRotation.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SpriteRenderer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Sprites_DataUtility.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_StackTraceLogType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_StackTraceUtility.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_StateMachineBehaviour.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_StaticBatchingUtility.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SurfaceEffector2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SystemInfo.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_SystemLanguage.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TargetJoint2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TexGenMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TextAnchor.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TextAsset.cs" />
@@ -484,6 +607,7 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Time.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Touch.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TouchPhase.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TouchType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TrailRenderer.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Transform.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_TransparencySortMode.cs" />
@@ -491,21 +615,37 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UILineInfo.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UIVertex.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_AnimationTriggers.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_BaseVertexEffect.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_AspectRatioFitter.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_AspectRatioFitter_AspectMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_BaseMeshEffect.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Button.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Button_ButtonClickedEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_CanvasScaler.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_CanvasScaler_ScaleMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_CanvasScaler_ScreenMatchMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_CanvasScaler_Unit.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_CanvasUpdate.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_CanvasUpdateRegistry.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ClipperRegistry.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Clipping.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ColorBlock.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ContentSizeFitter.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ContentSizeFitter_FitMode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_DefaultControls.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_DefaultControls_Resources.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Dropdown.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Dropdown_DropdownEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Dropdown_OptionData.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Dropdown_OptionDataList.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_FontData.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_FontUpdateTracker.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Graphic.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_GraphicRaycaster.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_GraphicRaycaster_BlockingObjects.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_GraphicRegistry.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_GridLayoutGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_GridLayoutGroup_Axis.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_GridLayoutGroup_Constraint.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_GridLayoutGroup_Corner.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_HorizontalLayoutGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_HorizontalOrVerticalLayoutGroup.cs" />
@@ -518,25 +658,30 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Image_OriginVertical.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Image_Type.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField_CharacterValidation.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField_ContentType.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField_InputType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField_LineType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField_OnChangeEvent.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField_SubmitEvent.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_InputField_Validation.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_LayoutElement.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_LayoutGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_LayoutRebuilder.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_LayoutUtility.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Mask.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_MaskUtilities.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_MaskableGraphic.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Navigation.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Navigation_Mode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Outline.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_PhysicalResolution.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_PhysicalResolution_Unit.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_PositionAsUV1.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_RawImage.cs" />
-     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ReferenceResolution.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_RectMask2D.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ScrollRect.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ScrollRect_MovementType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ScrollRect_ScrollRectEvent.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ScrollRect_ScrollbarVisibility.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Scrollbar.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Scrollbar_Direction.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Scrollbar_ScrollEvent.cs" />
@@ -553,11 +698,17 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_ToggleGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Toggle_ToggleEvent.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_Toggle_ToggleTransition.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_VertexHelper.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UI_VerticalLayoutGroup.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UnassignedReferenceException.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UnityEventQueueSystem.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UnityException.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_UserAuthorization.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_VR_InputTracking.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_VR_VRDevice.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_VR_VRDeviceType.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_VR_VRNode.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_VR_VRSettings.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Vector2.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Vector3.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_Vector4.cs" />
@@ -567,6 +718,8 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WaitForEndOfFrame.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WaitForFixedUpdate.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WaitForSeconds.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WaitUntil.cs" />
+     <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WaitWhile.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WebCamDevice.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WebCamFlags.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WebCamTexture.cs" />
@@ -577,69 +730,158 @@
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WindZone.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WindZoneMode.cs" />
      <Compile Include="Assets\Slua\LuaObject\Unity\Lua_UnityEngine_WrapMode.cs" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Buff\FixedHPHurt.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\Missile.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Repeater.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Tick.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\NetworkTest.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Succeeder.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\RepeatUntilFailure.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\LoginMainPanel.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Creature\Creature.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\sprotoparser.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Wait.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Move.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\Buff.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Decorator.txt" />
-     <None Include="Assets\Ignore\Resources\Update\SceneUpdate.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Creature\Attribute.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\HurtCollision.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\Skill.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Utils\Json.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Composite.txt" />
-     <None Include="Assets\Ignore\Resources\Update\Update.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Action.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Utils\Class.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Condition.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\EffectDeal.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\Scene\Test.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\Character\Hornet.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Manager\BuffManager.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Sequence.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\Priority.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\Character\Golem.txt" />
-     <None Include="Assets\Ignore\Resources\Config\Configuration.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Input\JoystickManager.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Runner.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\BaseNode.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Manager\RunTimeManager.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Fight\BuffHandler.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\tests.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\MemSequence.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\Blackboard.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\MaxTime.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\proto.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Limiter.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\ServerListPanel.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\core\BehaviorTree.txt" />
+     <None Include="Assets\Resources\Script\Base\Buff\FixedHPHurt.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\Buff.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\Missile.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\Limiter.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Buff\FixedHPHurt.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Buff.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\b3.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\Sequence.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\UI\UIModuleItem.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\LoginMainPanel.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Creature\Creature.txt" />
+     <None Include="Assets\Resources\Script\Base\Creature\Creature.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\Repeater.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Tick.txt" />
+     <None Include="Assets\Resources\Common\Script\Network\sproto.txt" />
+     <None Include="Assets\Resources\Common\Script\Network\NetworkTest.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Buff\FixedHPHurt.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\tests.txt" />
+     <None Include="Assets\StreamingAssets\Config\SkillDataBase.txt" />
+     <None Include="Assets\Resources\Common\Script\Util\Class.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Runner.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Condition.txt" />
+     <None Include="Assets\Resources\Common\Script\Util\GlobalFunctions.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Move.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\ServerItemInfo.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\Buff.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\Missile.txt" />
+     <None Include="Assets\StreamingAssets\Script\Utils\Json.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\UIWindow.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\Sequence.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\Limiter.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\RepeatUntilFailure.txt" />
+     <None Include="Assets\StreamingAssets\Script\Utils\Class.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Creature\Attribute.txt" />
+     <None Include="Assets\Resources\Update\SceneUpdate.txt" />
+     <None Include="Assets\Resources\Script\Base\Creature\Attribute.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Condition.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\HurtCollision.txt" />
+     <None Include="Assets\Resources\Config\ModConfig.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\Skill.txt" />
+     <None Include="Assets\Resources\Common\Script\Util\Json.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Wait.txt" />
+     <None Include="Assets\StreamingAssets\Script\Manager\MainPlayer.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\BehaviorTree.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Animator.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\ControlCenter.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\Skill.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Composite.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\EffectDeal.txt" />
+     <None Include="Assets\Resources\Update\Update.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\MemPriority.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\Priority.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Action.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\BaseBuff.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\BaseNode.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\Repeater.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Failer.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\EffectDeal.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\MissileA.txt" />
+     <None Include="Assets\Resources\Script\Prefab\Scene\Test.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\composites\MemSequence.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\MaxTime.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Succeeder.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Succeeder.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\EffectDeal.txt" />
+     <None Include="Assets\Resources\Script\Prefab\Character\Hornet.txt" />
+     <None Include="Assets\Resources\Script\Manager\BuffManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\b3.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\UI\UILogin.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Main.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\sproto.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\Priority.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\LoginMainPanel.txt" />
+     <None Include="Assets\Resources\Script\Prefab\Character\Golem.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Module.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\ServerListPanel.txt" />
+     <None Include="Assets\Resources\Config\Configuration.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\NetworkTest.txt" />
+     <None Include="Assets\StreamingAssets\Config\AssetBundleConfig.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Module\Search.txt" />
+     <None Include="Assets\StreamingAssets\Update\Update.txt" />
+     <None Include="Assets\Resources\Script\Input\JoystickManager.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Wait.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Decorator.txt" />
+     <None Include="Assets\Scripts\Plugins\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\Character\Golem.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\UI\UIModuleBag.txt" />
+     <None Include="Assets\StreamingAssets\Update\SceneUpdate.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\proto.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Config\SkillDataBase.txt" />
+     <None Include="Assets\StreamingAssets\Script\Main.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\BaseNode.txt" />
+     <None Include="Assets\Resources\Script\Manager\RunTimeManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Tick.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\Character\Hornet.txt" />
+     <None Include="Assets\Resources\Script\Base\Fight\BuffHandler.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\Attribute.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Move.txt" />
+     <None Include="Assets\StreamingAssets\Script\Network\sprotoparser.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Failer.txt" />
+     <None Include="Assets\StreamingAssets\Script\Input\JoystickManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\Scene\Test.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\RepeatUntilFailure.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\BuffHandler.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Blackboard.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\BehaviorTree.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\HurtCollision.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\MemPriority.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\Tank\BaseTank.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Runner.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Decorator.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\actions\Error.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\actions\Error.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\ServerListPanel.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\decorators\Inverter.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Prefab\UI\Login\ServerItemInfo.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Main.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Manager\MainPlayer.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Base\Creature\AI.txt" />
-     <None Include="Assets\Ignore\Resources\Config\SkillDataBase.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Network\sproto.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\b3.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\composites\MemPriority.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Utils\GlobalFunctions.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Error.txt" />
-     <None Include="Assets\Ignore\Resources\Config\AssetBundleConfig.txt" />
-     <None Include="Assets\Ignore\Resources\Script\Behavior\actions\Failer.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Config\AssetBundleConfig.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\Inverter.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Module\Attack.txt" />
+     <None Include="Assets\Resources\Script\Prefab\UI\Login\ServerItemInfo.txt" />
+     <None Include="Assets\Resources\Script\Main.txt" />
+     <None Include="Assets\StreamingAssets\Script\Manager\BuffManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\tests.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Manager\UIManager.txt" />
+     <None Include="Assets\Resources\Script\Manager\MainPlayer.txt" />
+     <None Include="Assets\Resources\Common\Script\Network\sprotoparser.txt" />
+     <None Include="Assets\StreamingAssets\Script\Utils\GlobalFunctions.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Manager\RunTimeManager.txt" />
+     <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
+     <None Include="Assets\Resources\Script\Base\Creature\AI.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Config\Configuration.txt" />
+     <None Include="Assets\StreamingAssets\UpdateTest.txt" />
+     <None Include="Assets\Resources\Config\SkillDataBase.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\core\Blackboard.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\decorators\MaxTime.txt" />
+     <None Include="Assets\Resources\Common\Script\Behavior\decorators\Inverter.txt" />
+     <None Include="Assets\Resources\Mod\AITank\Script\Base\BaseModule.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Composite.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Fight\HurtCollision.txt" />
+     <None Include="Assets\Resources\Config\AssetBundleConfig.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\composites\MemSequence.txt" />
+     <None Include="Assets\StreamingAssets\Config\Configuration.txt" />
+     <None Include="Assets\StreamingAssets\Script\Behavior\core\Action.txt" />
+     <None Include="Assets\StreamingAssets\Script\Base\Creature\AI.txt" />
+     <None Include="Assets\StreamingAssets\Script\Manager\RunTimeManager.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
  <HintPath>/Users/nottvlike/Documents/github/OpenWorldGame/Assets/Plugins/LitJson.dll</HintPath>
@@ -651,7 +893,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-	   Other similar extension points exist, see Microsoft.Common.targets.
+       Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
