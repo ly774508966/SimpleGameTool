@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A22B11D3-C71F-0FE7-69BA-990495608CCB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>4.7.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_7_1;UNITY_4_7;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_7_1;UNITY_4_7;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\Slua_Managed\Coroutine.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Helper.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Logger.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Lua3rdDLL.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Lua3rdMeta.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaArray.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaDLL.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaDLLWrapper.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaObject.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaObject_basetype.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaObject_overload.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaState.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaSvr.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaSvrGameObject.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaValueType.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaVarObject.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\ObjectCache.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\SLuaSetting.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Timer.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\WeakDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Resources\Common\Script\Behavior\actions\Error.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\actions\Failer.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\actions\Move.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\actions\Runner.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\actions\Succeeder.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\actions\Wait.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\b3.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\composites\MemPriority.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\composites\MemSequence.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\composites\Priority.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\composites\Sequence.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\Action.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\BaseNode.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\BehaviorTree.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\Blackboard.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\Composite.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\Condition.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\Decorator.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\core\Tick.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\decorators\Inverter.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\decorators\Limiter.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\decorators\MaxTime.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\decorators\RepeatUntilFailure.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\decorators\Repeater.txt" />
+    <None Include="Assets\Resources\Common\Script\Behavior\tests.txt" />
+    <None Include="Assets\Resources\Common\Script\Network\NetworkTest.txt" />
+    <None Include="Assets\Resources\Common\Script\Network\sproto.txt" />
+    <None Include="Assets\Resources\Common\Script\Network\sprotoparser.txt" />
+    <None Include="Assets\Resources\Common\Script\Util\Class.txt" />
+    <None Include="Assets\Resources\Common\Script\Util\GlobalFunctions.txt" />
+    <None Include="Assets\Resources\Common\Script\Util\Json.txt" />
+    <None Include="Assets\Resources\Config\AssetBundleConfig.txt" />
+    <None Include="Assets\Resources\Config\Configuration.txt" />
+    <None Include="Assets\Resources\Config\SkillDataBase.txt" />
+    <None Include="Assets\Resources\Script\Base\Buff\FixedHPHurt.txt" />
+    <None Include="Assets\Resources\Script\Base\Creature\AI.txt" />
+    <None Include="Assets\Resources\Script\Base\Creature\Attribute.txt" />
+    <None Include="Assets\Resources\Script\Base\Creature\Creature.txt" />
+    <None Include="Assets\Resources\Script\Base\Fight\Buff.txt" />
+    <None Include="Assets\Resources\Script\Base\Fight\BuffHandler.txt" />
+    <None Include="Assets\Resources\Script\Base\Fight\EffectDeal.txt" />
+    <None Include="Assets\Resources\Script\Base\Fight\HurtCollision.txt" />
+    <None Include="Assets\Resources\Script\Base\Fight\Missile.txt" />
+    <None Include="Assets\Resources\Script\Base\Fight\Skill.txt" />
+    <None Include="Assets\Resources\Script\Input\JoystickManager.txt" />
+    <None Include="Assets\Resources\Script\Main.txt" />
+    <None Include="Assets\Resources\Script\Manager\BuffManager.txt" />
+    <None Include="Assets\Resources\Script\Manager\MainPlayer.txt" />
+    <None Include="Assets\Resources\Script\Manager\RunTimeManager.txt" />
+    <None Include="Assets\Resources\Script\Prefab\Character\Golem.txt" />
+    <None Include="Assets\Resources\Script\Prefab\Character\Hornet.txt" />
+    <None Include="Assets\Resources\Script\Prefab\Scene\Test.txt" />
+    <None Include="Assets\Resources\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
+    <None Include="Assets\Resources\Script\Prefab\UI\Login\LoginMainPanel.txt" />
+    <None Include="Assets\Resources\Script\Prefab\UI\Login\ServerItemInfo.txt" />
+    <None Include="Assets\Resources\Script\Prefab\UI\Login\ServerListPanel.txt" />
+    <None Include="Assets\Resources\Update\SceneUpdate.txt" />
+    <None Include="Assets\Resources\Update\Update.txt" />
+    <None Include="Assets\Scripts\Plugins\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\actions\Error.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\actions\Failer.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\actions\Move.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\actions\Runner.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\actions\Succeeder.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\actions\Wait.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\b3.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\composites\MemPriority.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\composites\MemSequence.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\composites\Priority.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\composites\Sequence.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\Action.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\BaseNode.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\BehaviorTree.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\Blackboard.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\Composite.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\Condition.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\Decorator.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\core\Tick.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\decorators\Inverter.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\decorators\Limiter.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\decorators\MaxTime.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\decorators\RepeatUntilFailure.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\decorators\RepeatUntilSuccess.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\decorators\Repeater.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Behavior\tests.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Network\NetworkTest.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Network\sproto.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Network\sprotoparser.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Util\Class.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Util\GlobalFunctions.txt" />
+    <None Include="Assets\StreamingAssets\Common\Script\Util\Json.txt" />
+    <None Include="Assets\StreamingAssets\Config\AssetBundleConfig.txt" />
+    <None Include="Assets\StreamingAssets\Config\Configuration.txt" />
+    <None Include="Assets\StreamingAssets\Config\SkillDataBase.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Buff\FixedHPHurt.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Creature\AI.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Creature\Attribute.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Creature\Creature.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Fight\Buff.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Fight\BuffHandler.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Fight\EffectDeal.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Fight\HurtCollision.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Fight\Missile.txt" />
+    <None Include="Assets\StreamingAssets\Script\Base\Fight\Skill.txt" />
+    <None Include="Assets\StreamingAssets\Script\Input\JoystickManager.txt" />
+    <None Include="Assets\StreamingAssets\Script\Main.txt" />
+    <None Include="Assets\StreamingAssets\Script\Manager\BuffManager.txt" />
+    <None Include="Assets\StreamingAssets\Script\Manager\MainPlayer.txt" />
+    <None Include="Assets\StreamingAssets\Script\Manager\RunTimeManager.txt" />
+    <None Include="Assets\StreamingAssets\Script\Prefab\Character\Golem.txt" />
+    <None Include="Assets\StreamingAssets\Script\Prefab\Character\Hornet.txt" />
+    <None Include="Assets\StreamingAssets\Script\Prefab\Scene\Test.txt" />
+    <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\CreatePlayerPanel.txt" />
+    <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\LoginMainPanel.txt" />
+    <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\ServerItemInfo.txt" />
+    <None Include="Assets\StreamingAssets\Script\Prefab\UI\Login\ServerListPanel.txt" />
+    <None Include="Assets\StreamingAssets\Update\SceneUpdate.txt" />
+    <None Include="Assets\StreamingAssets\Update\Update.txt" />
+    <None Include="Assets\StreamingAssets\UpdateTest.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>
